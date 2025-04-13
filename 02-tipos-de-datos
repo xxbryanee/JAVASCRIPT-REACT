@@ -1,0 +1,42 @@
+let a = 12;     // número entero
+let mensaje = 'hola mundo'  // cadena de texto
+let estaAbierto = true  // booleano (true o false
+
+let estaCasado
+let miNumero = 12.5
+let miArray = [1, 2, 3, 4, 5]
+let miObjeto = { nombre: 'Juan', edad: 30 }
+let noDefinido = undefined
+let nulo = null     // valor nulo
+let miFuncion = function() { console.log('Hola') }      // función anónima
+
+//prmitivos
+undefined   // indefinido (no se ha asignado un valor)
+null        // nulo (valor intencionalmente vacío)
+Boolean         // booleano (true o false)
+Number      // número (entero o decimal)
+BigInt      // entero grande (ES11)
+String      // cadena de texto
+Symbol  // identificador único (ES6)
+
+//por referencia
+Object      // objeto (colección de propiedades)
+Function        // función (bloque de código reutilizable)
+Array   // arreglo (colección de elementos)
+Date    // fecha (representación de fechas y horas)
+RegExp  // expresión regular (patrón de búsqueda)
+Error   // error (manejo de errores)
+// Map     // mapa (colección de pares clave-valor) 
+// Set     // conjunto (colección de valores únicos)
+// WeakMap // mapa débil (colección de pares clave-valor con referencias débiles)
+// WeakSet // conjunto débil (colección de valores únicos con referencias débiles)
+// Promise // promesa (representación de un valor futuro)
+// Proxy   // proxy (interceptor de operaciones sobre un objeto)
+// Reflect // reflexión (interacción con objetos y funciones)
+// Intl    // internacionalización (formateo de números, fechas y cadenas)
+// JSON    // JavaScript Object Notation (formato de intercambio de datos)
+// WebAssembly // formato binario para ejecutar código en el navegador
+// URL     // objeto URL (representación de URLs)
+// URLSearchParams // parámetros de búsqueda de URL (manejo de parámetros de consulta)
+// File    // archivo (representación de archivos en el sistema de archivos)    
+
