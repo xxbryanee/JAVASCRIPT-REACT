@@ -104,3 +104,14 @@ console.log(numeros.splice(1, 1, 5)); // [2]
 // Busca el índice del elemento "pera" en el array frutas
 const indiceManzana = frutas.findIndex((fruta) => fruta.nombre === "pera");
 console.log(indiceManzana); // Devuelve el índice de "pera" o -1 si no se encuentra
+
+
+//entries
+//entries
+// Devuelve un iterador con pares clave-valor para cada índice del array
+const frutasEntries = frutas.entries();
+
+for (const [index, fruta] of frutasEntries) {
+    console.log(`Índice: ${index}, Nombre: ${fruta.nombre}, Color: ${fruta.color}`);
+}
+// Muestra cada índice y los detalles de cada fruta en el array
