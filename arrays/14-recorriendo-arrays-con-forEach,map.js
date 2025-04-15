@@ -29,7 +29,7 @@ tecnologias.forEach(function (a) {
 const arrayMap = tecnologias.map(function (tech){   
     return tech; //retorna el mismo array tecnologias
 })
-console.log(arrayMap); 
+console.log('Resultado del arrayMap:', arrayMap);  
 
 /*******************************for fo************************* */
 
