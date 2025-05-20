@@ -27,7 +27,7 @@ else {
  * || o
  * ! no
  * ? operador ternario
- * : operador de dos puntos
+ * : operador de dos puntos 
  * ? operador de pregunta
  
 

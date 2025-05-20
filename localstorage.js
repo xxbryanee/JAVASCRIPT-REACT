@@ -6,6 +6,7 @@ function agregarTarea(tarea) {
     // Verificar si la tarea ya existe
     let tareas = JSON.parse(localStorage.getItem('tareas')) || [];  
     tareas.push(tarea); // Agregar la nueva tarea al array
+    
     // Guardar el array actualizado en LocalStorage
     localStorage.setItem('tareas', JSON.stringify(tareas)); // Convertir el array a JSON y guardarlo
     // Mostrar un mensaje de éxito

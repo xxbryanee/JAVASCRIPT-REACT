@@ -1,3 +1,11 @@
+/*
+El "target" en un evento es una propiedad del objeto de evento 
+(event.target) que hace referencia al elemento específico del DOM
+ que originó el evento. Por ejemplo, si haces clic en un botón,
+  event.target será ese botón. Es útil para identificar o manipular 
+  el elemento que disparó el evento dentro de un manejador de eventos.
+*/
+
 // Ejemplo de uso de "target" en un evento
 
 // Creamos un botón en el DOM
@@ -14,3 +22,4 @@ button.addEventListener('click', (event) => {
 
 // Si haces clic en el botón, verás en la consola y en la alerta
 // el texto del botón que disparó el evento.
+

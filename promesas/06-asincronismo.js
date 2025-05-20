@@ -99,7 +99,7 @@ const procesarDatos = async () => {     //funcion asincrona
         console.log(data) //datos cargados
         console.log("procesando datos")
     } catch (error) {
-        console.log(error) //error al cargar los datos
+        console.error(error) //error al cargar los datos
     }
 }
 procesarDatos()

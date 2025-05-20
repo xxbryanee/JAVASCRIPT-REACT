@@ -21,7 +21,7 @@ Symbol  // identificador único (ES6)
 
 //por referencia
 Object      // objeto (colección de propiedades)
-Function        // función (bloque de código reutilizable)
+Function        // función (bloque de código reutilizable )
 Array   // arreglo (colección de elementos)
 Date    // fecha (representación de fechas y horas)
 RegExp  // expresión regular (patrón de búsqueda)
