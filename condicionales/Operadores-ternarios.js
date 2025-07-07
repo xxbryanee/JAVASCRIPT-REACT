@@ -19,11 +19,17 @@ console.log('Usuario autenticado') :    //si el usuario esta autenticado se impr
 console.log('Usuario no autenticado'); //si el usuario esta autenticado se imprime el mensaje
 
 /*********************otro ejemplpo*************************************** */
+ // El operador ternario es una forma concisa de escribir una expresión condicional
+// que evalúa una condición y devuelve un valor basado en si la condición es verdadera o falsa.
+//  Sintaxis: condición ? valorSiVerdadero : valorSiFalso
+// Ejemplo de uso del operador ternario 
+// El operador ternario evalúa si el saldo es mayor que el precio a pagar.
+// Si es verdadero, imprime 'Compra exitosa'; si es falso, imprime 'Compra fallida'.
 
 saldo > pagar ?
     console.log('Compra exitosa') : //si el saldo es mayor que el precio se imprime el mensaje
     console.log('Compra fallida'); //si el saldo no es mayor que el precio se imprime el mensaje de compra fallida
-
+   
 /*********************otro ejemplpo*************************************** */
 saldo > pagar || tarjeta ?
     console.log('Compra exitosa') : //si el saldo es mayor que el precio se imprime el mensaje

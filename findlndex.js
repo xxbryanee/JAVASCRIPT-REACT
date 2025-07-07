@@ -9,7 +9,7 @@ const usuarios = [
 ];
 
 // Encontrar el índice del usuario con el nombre "Carlos"
-const indiceCarlos = usuarios.findIndex(usuario => usuario.id === 2);
+const indiceCarlos = usuarios.findIndex(lol => lol.id === 2);
 
 if (indiceCarlos !== -1) {
     console.log(`El índice de Carlos es: ${indiceCarlos}`);

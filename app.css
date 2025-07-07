@@ -1,0 +1,40 @@
+.elemento {
+    visibility: hidden; /* Oculta el elemento, pero ocupa espacio */
+    /* o */
+    overflow: hidden;   /* Oculta el contenido que se desborda */
+    /* o */
+    display: none;      /* Oculta el elemento y no ocupa espacio */
+}
+
+/*La clase sm:w-[438px] es una utilidad de Tailwind CSS, un framework de CSS. Se usa para aplicar estilos responsivos fácilmente.
+
+sm: es un prefijo que indica que la regla se aplica en pantallas pequeñas o mayores (por defecto, ≥640px de ancho).
+w-[438px] establece el ancho (width) del elemento a 438px usando la sintaxis de corchetes para valores arbitrarios.
+Ejemplo de uso:
+
+¿Qué hace?
+Cuando la pantalla tiene al menos 640px de ancho, el elemento tendrá un ancho de 438px.
+
+Nota:
+Esta clase solo funciona si tienes Tailwind CSS correctamente configurado en tu proyecto. No es CSS estándar.*/
+
+/* 
+width es una propiedad de CSS que define el ancho de un elemento. 
+Por ejemplo:
+*/
+.caja {
+    width: 200px; /* El ancho de la caja será de 200 píxeles */
+}
+/* 
+relative es un valor de la propiedad position en CSS.
+position: relative; posiciona el elemento de forma normal en el flujo del documento, 
+pero permite moverlo usando las propiedades top, right, bottom o left, 
+sin sacarlo del flujo normal.
+Ejemplo:
+*/
+.relativo {
+    position: relative;
+    top: 10px; /* Mueve el elemento 10px hacia abajo desde su posición original */
+    left: 20px; /* Mueve el elemento 20px hacia la derecha desde su posición original */
+    right: 20px;
+}

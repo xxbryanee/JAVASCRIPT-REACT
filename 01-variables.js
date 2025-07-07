@@ -1,3 +1,11 @@
+/*La diferencia principal entre let y const en JavaScript es la mutabilidad y la reasignación:
+
+let: Permite declarar variables cuyo valor puede cambiar (reasignar) después de su declaración.
+const: Declara constantes, es decir, variables cuyo valor no puede ser reasignado después de su inicialización.
+ Sin embargo, si la constante es un objeto, sus propiedades pueden ser modificadas.
+Ejemplo de uso de let y const    */
+
+
 let mensaje;
 mensaje = 'Hola Mundo!';
 console.log(mensaje);
