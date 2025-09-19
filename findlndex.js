@@ -18,3 +18,14 @@ if (indiceCarlos !== -1) {
 }
 
 // Resultado esperado: El índice de Carlos es: 2
+
+// Otro ejemplo: encontrar el índice del primer usuario mayor de 30 años
+const indiceMayor30 = usuarios.findIndex(usuario => usuario.edad > 30);
+
+if (indiceMayor30 !== -1) {
+    console.log(`El índice del primer usuario mayor de 30 años es: ${indiceMayor30}`);
+} else {
+    console.log("No hay usuarios mayores de 30 años en la lista.");
+}
+
+// Resultado esperado: El índice del primer usuario mayor de 30 años es: 2

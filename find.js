@@ -1,4 +1,5 @@
-/*Claro. Este código utiliza el método find de los arrays en JavaScript para buscar el primer elemento que cumpla una condición.
+/*Claro. Este código utiliza el método find de los arrays en JavaScript para buscar el primer elemento 
+que cumpla una condición.
 
 numbers es un array de números.
 numbers.find(num => num > 10) busca el primer número mayor que 10.
